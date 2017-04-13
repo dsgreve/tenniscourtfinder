@@ -14,7 +14,10 @@
 
 </head>
 <body>
-<div id="map"></div>
+  <div id="controls">
+    <h1>Find a Tennis Court</h1>
+  </div>
+  <div id="map"></div>
 
 <!-- call google map api -->
 <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDpL-RWRxurSid9WCK1RWj7ddHGHbPF4bE&callback=initMap"></script>

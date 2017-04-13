@@ -1,4 +1,5 @@
-#map {height:100%}
+#map {height:100%; width: 75%; float:left;}
+#controls {width:25%; height:100%;float:left;color:#FFF;}
 
 html,body{
   height:100%;

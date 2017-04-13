@@ -43,14 +43,15 @@ function handleLocationError(browserHasGeolocation, infoWindow, pos) {
 
 var tennisCourts = [
   ['Athens High School', 42.580770, -83.114275, 2],
-  ['Troy Raquet Club', 42.5684268, -83.1557697, 1]
+  ['Troy Raquet Club', 42.5684268, -83.1557697, 1],
+  ['Birmingham Raquet Club', 42.539136, -83.194370, 0]
 ];
 
 function setMarkers(map) {
   //Add Markers to Map
   var image = {
-    url: 'images/tennis-court-icon.png',
-    size: new google.maps.Size(24,24),
+    url: 'images/tennis-court-icon-2.png',
+    size: new google.maps.Size(40,47),
     origin: new google.maps.Point(0,0),
     anchor: new google.maps.Point(0,14)
   };
