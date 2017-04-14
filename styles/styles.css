@@ -1,9 +1,10 @@
-#map {height:100%; width: 75%; float:left;}
-#controls {width:25%; height:100%;float:left;color:#FFF;}
-
 html,body{
   height:100%;
   margin:0;
   padding:0;
   background:#000;
 }
+
+
+#map {height:100%; width: 75%; float:left;}
+#controls {width:25%; height:100%;float:left;color:#FFF;}

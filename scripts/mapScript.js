@@ -24,7 +24,8 @@ function initMap() {
       map.setCenter(pos);
     }, function() {
       handleLocationError(true, infoWindow, map.getCenter());
-    });
+      })
+    ;
   } else {
     // Browser doesn't support Geolocation
     handleLocationError(false, infoWindow, map.getCenter());
@@ -42,6 +43,7 @@ function handleLocationError(browserHasGeolocation, infoWindow, pos) {
 
 
 var tennisCourts = [
+  ['Eastside Tennis and Fitness', 42.411823, -82.918404, 3],
   ['Athens High School', 42.580770, -83.114275, 2],
   ['Troy Raquet Club', 42.5684268, -83.1557697, 1],
   ['Birmingham Raquet Club', 42.539136, -83.194370, 0]
